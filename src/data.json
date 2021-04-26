@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "A Cozy Dome & Attic in Parvati Valley",
+    "imgSrc": "https://a0.muscache.com/im/pictures/miso/Hosting-48617245/original/a972672a-c950-4069-b607-88c6e7a934aa.jpeg?im_w=960",
+    "location": "Jari, Himachal Pradesh, India",
+    "rate": "5,000",
+    "totalReview": 5,
+    "averageStar": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Sukoonbaag | The eco farm homestay",
+    "imgSrc": "https://a0.muscache.com/im/pictures/miso/Hosting-45323633/original/49827a43-a858-45dc-a6b5-847647a07567.jpeg?im_w=960",
+    "location": "Jari, Himachal Pradesh, India",
+    "rate": "3,057",
+    "totalReview": 9,
+    "averageStar": 5.0
+  },
+  {
+    "id": 3,
+    "name": "MettāDhura",
+    "imgSrc": "https://a0.muscache.com/im/pictures/miso/Hosting-47554648/original/1ddffa19-a80a-4096-a8a6-82a46ee69d95.jpeg?im_w=960",
+    "location": "Dhura, Uttarakhand, India",
+    "rate": "3,147",
+    "totalReview": 17,
+    "averageStar": 4.94
+  },
+  {
+    "id": 4,
+    "name": "Sunny Treehouse With Valley",
+    "imgSrc": "https://a0.muscache.com/im/pictures/miso/Hosting-46321411/original/2233ac6a-79bc-4bc4-910d-5d80a39586c2.jpeg?im_w=320",
+    "location": "Jibhi, Himachal Pradesh, India",
+    "rate": "2,213",
+    "totalReview": 15,
+    "averageStar": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Aman camps",
+    "imgSrc": "https://a0.muscache.com/im/pictures/8f39ab33-8f31-4e24-a14c-b1bf086d7536.jpg?im_w=1200",
+    "location": "Shimla, Himachal Pradesh, India",
+    "rate": "1,500",
+    "totalReview": 1
+  },
+  {
+    "id": 6,
+    "name": "Mudhouse blue magpie - dharamshala",
+    "imgSrc": "https://a0.muscache.com/im/pictures/cf38add3-6970-41df-8a25-064f43a71b64.jpg?im_w=320",
+    "location": "Dharamshala, Himachal Pradesh, India",
+    "rate": "3,500"
+  }
+]

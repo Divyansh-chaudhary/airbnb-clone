@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+footer .center ul, footer .center .social-icons, .pagination ul li button, .pagination ul, .navbar .auth-items .globe-icon, .navbar .center .search-container .search-icon, .navbar .center .search-container, .arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination ul li button, .stays-page .filter-container ul .filter-btn, .navbar .auth-items .be-host, .navbar .center .search-container input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+body {
+  line-height: 1.3;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.arrow-container {
+  background-color: white;
+  color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  box-shadow: 1px 1px 3px lightgray, -1px -1px 3px lightgray;
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.right-arrow {
+  right: 0;
+}
+
+.app {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2.5rem;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  transition: 0.2s ease;
+  box-shadow: 0 -10px 20px #111;
+}
+.navbar .logo {
+  margin-right: 10px;
+}
+.navbar .logo img {
+  width: 40px;
+}
+.navbar .center {
+  flex: 1;
+  max-width: 500px;
+}
+.navbar .center .search-container {
+  padding: 5px;
+  height: 55px;
+  border-radius: 25px;
+  border: 1px solid lightgray;
+  background-color: #fff;
+}
+.navbar .center .search-container input {
+  font-size: 1rem;
+  height: inherit;
+  flex: 1;
+  padding: 0 0 0 5px;
+}
+.navbar .center .search-container .search-icon {
+  background-color: #dc0f63;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+.navbar .center .search-container .search-icon:hover {
+  box-shadow: 2px 2px 6px lightgray;
+}
+.navbar .auth-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .auth-items .globe-icon, .navbar .auth-items .be-host {
+  border-radius: 30px;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+.navbar .auth-items .globe-icon:hover, .navbar .auth-items .be-host:hover {
+  background: #eee;
+}
+.navbar .auth-items .be-host {
+  font-size: 1.1rem;
+}
+.navbar .auth-items .avatar-icon {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.banner {
+  height: 90vh;
+  background: url("https://a0.muscache.com/im/pictures/ddc7f01f-3fb3-483c-87e6-701dad52c930.jpg?im_w=2560") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 9rem 2.5rem;
+  display: flex;
+}
+.banner .details {
+  align-self: flex-end;
+}
+.banner h2 {
+  line-height: 1;
+  font-size: 4.5rem;
+  color: #111;
+}
+.banner p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: 100;
+}
+.banner button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background: #111;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 8px;
+}
+
+.explore-nearby {
+  padding: 3rem 2rem;
+}
+.explore-nearby .heading {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.explore-nearby .places .place {
+  transition: 0.2s;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.explore-nearby .places .place .img-container {
+  margin-right: 1rem;
+}
+.explore-nearby .places .place .img-container img {
+  width: 90px;
+  border-radius: 10px;
+}
+.explore-nearby .places .place .content h3 {
+  color: #111;
+  font-size: 1.4rem;
+}
+.explore-nearby .places .place .content p {
+  font-size: 1rem;
+  color: gray;
+}
+
+.live-anywhere {
+  padding: 3rem 2rem;
+}
+.live-anywhere .heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.live-anywhere .places .place {
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.live-anywhere .places .place .img-container {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.live-anywhere .places .place .img-container img {
+  width: 100%;
+}
+.live-anywhere .places .place .name {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin: 5px 0;
+}
+.live-anywhere .places .place:hover {
+  transform: scale(1.05);
+}
+
+div.be-host {
+  background: url("https://a0.muscache.com/im/pictures/5b4dc94a-0b4c-4c27-b50f-9c5a5b93c775.jpg?im_w=720") center center;
+  height: 440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  width: calc(100vw - 6rem);
+  margin: auto;
+  border-radius: 20px;
+  color: white;
+}
+div.be-host > div {
+  width: 100%;
+  max-width: 380px;
+}
+div.be-host > div h2 {
+  font-size: 2.5rem;
+}
+div.be-host > div p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+div.be-host > div button {
+  background: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.stays-page {
+  padding: 9rem 0 0 0;
+  color: #111;
+}
+.stays-page .filter-container {
+  padding: 2rem;
+  border-bottom: 1px solid lightgray;
+}
+.stays-page .filter-container .heading {
+  font-size: 2.8rem;
+  margin: 20px 0;
+}
+.stays-page .filter-container ul .filter-btn {
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: gray;
+  margin: 0 1rem 1rem 0;
+  cursor: pointer;
+}
+.stays-page .filter-container ul .filter-btn:hover {
+  color: #111;
+  border-color: #111;
+}
+.stays-page .all-stays .single-stay {
+  padding: 1.5rem;
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+.stays-page .all-stays .single-stay .img-container {
+  border-radius: 30px;
+  margin-right: 1rem;
+  height: 270px;
+  width: 350px;
+}
+.stays-page .all-stays .single-stay .details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.stays-page .all-stays .single-stay .details .top {
+  display: flex;
+  justify-content: space-between;
+}
+.stays-page .all-stays .single-stay .details .top .top-left .location {
+  color: gray;
+  font-size: 1.1rem;
+}
+.stays-page .all-stays .single-stay .details .top .top-left .camp-name {
+  margin: 10px 0;
+  font-weight: lighter;
+  font-size: 1.7rem;
+}
+.stays-page .all-stays .single-stay .details .top .top-left .assets {
+  color: gray;
+  font-size: 1.1rem;
+}
+.stays-page .all-stays .single-stay .details .bottom {
+  text-align: right;
+}
+.stays-page .all-stays .single-stay .details .bottom .price {
+  font-size: 1.3rem;
+}
+
+.pagination ul {
+  width: 100%;
+  max-width: 500px;
+  margin: 1rem auto;
+}
+.pagination ul li {
+  margin-right: 1rem;
+  transition: 0.1s ease;
+}
+.pagination ul li button {
+  cursor: pointer;
+  width: 35px;
+  background-color: #eee;
+  border-radius: 50%;
+  height: 35px;
+  font-size: 1rem;
+}
+.pagination ul li .current {
+  background-color: #111;
+  color: #fff;
+}
+.pagination ul li:hover {
+  transform: scale(1.4);
+}
+
+footer {
+  background-color: lightgray;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+footer .center {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+footer .center .social-icons .icon {
+  font-size: 1.8rem;
+  margin: 7px;
+}
+footer .center ul {
+  margin: 10px 0;
+}
+footer .center ul li {
+  margin: 0 10px;
+}
+footer .center ul li a {
+  text-decoration: none;
+  color: #111;
+}
+
+@media screen and (max-width: 880px) {
+  .stays-page .all-stays .single-stay {
+    flex-direction: column;
+  }
+  .stays-page .all-stays .single-stay .img-container {
+    margin-bottom: 1rem;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 672px) {
+  .navbar .center {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .banner {
+    height: 80vh;
+    padding: 0 0 9rem 1.5rem;
+  }
+  .banner h2 {
+    font-size: 3.5rem;
+  }
+
+  .pagination ul li {
+    margin-right: 0.6rem;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
